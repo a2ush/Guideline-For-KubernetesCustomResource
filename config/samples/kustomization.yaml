@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- sample.a2ush.dev_v1_sampleobject.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples

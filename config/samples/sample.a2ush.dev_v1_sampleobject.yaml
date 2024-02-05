@@ -1,0 +1,13 @@
+apiVersion: sample.a2ush.dev.a2ush.dev/v1
+kind: SampleObject
+metadata:
+  labels:
+    app.kubernetes.io/name: sampleobject
+    app.kubernetes.io/instance: sampleobject-sample
+    app.kubernetes.io/part-of: guideline-for-kubernetescustomresource
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: guideline-for-kubernetescustomresource
+  name: sampleobject-sample
+spec:
+  filename: "yakiniku"
+  reason: "just want"
